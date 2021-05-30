@@ -1,0 +1,31 @@
+.pins__container{
+  
+    column-count: 3;
+    /* column-gap: 5px; */
+    height: auto;
+   
+}
+@media only screen and (max-width: 699px){
+    .pins__container{  
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 700px){
+    .pins__container{  
+        column-count: 2;
+    }
+}
+
+
+@media only screen and (min-width: 1027px){
+    .pins__container{  
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .pins__container{  
+        column-count: 4;
+    }
+}

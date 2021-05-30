@@ -1,0 +1,65 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: var(--text_color);
+    border-radius: 15px 0 15px 0;
+    color:#25282d;
+  
+    font-size: x-large;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+  }
+  .app__menu{
+
+    background-color: transparent;
+    color:var(--text_color);
+  
+    display:grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    padding: 40px;
+  }
+  .app__menu__top{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .pro__account__card{
+      padding:25px;
+      background-color:#40434a ;
+      border-radius: 20px;
+
+      display: grid;
+      grid-template-rows:auto auto;
+
+      grid-row-gap:10px;
+  }
+  .pro__account__card__top{
+      display: grid;
+
+      grid-template-columns: auto auto;
+      grid-gap:10px;
+  }
+
+  .button__container{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+  }
+  .menu__list{
+    list-style: none;
+  }
+  .menu__list > li{
+    margin-top: 20px;
+  }
+
+  .app__menu__bottom{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+  }
